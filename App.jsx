@@ -5,6 +5,7 @@ import InterPolate from './src/Engineer/InterPolate'
 import InfiniteAnimation from './src/Engineer/InfiniteAnimation'
 import InfiniteBounce from './src/Engineer/InfiniteBounce'
 import ScrollAnimationGesture from './src/Engineer/ScrollAnimationGesture'
+import InstagramDoubleTapLike from './src/Engineer/InstagramDoubleTapLike'
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <InterPolate/> */}
       {/* <InfiniteAnimation/> */}
       {/* <InfiniteBounce/> */}
-      <ScrollAnimationGesture/>
+      {/* <ScrollAnimationGesture/> */}
+      <InstagramDoubleTapLike/>
     </View>
   )
 }
