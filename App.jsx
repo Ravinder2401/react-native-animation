@@ -6,6 +6,7 @@ import InfiniteAnimation from './src/Engineer/InfiniteAnimation'
 import InfiniteBounce from './src/Engineer/InfiniteBounce'
 import ScrollAnimationGesture from './src/Engineer/ScrollAnimationGesture'
 import InstagramDoubleTapLike from './src/Engineer/InstagramDoubleTapLike'
+import AnimatedSearchBar from './src/Engineer/AnimatedSearchBar'
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       {/* <InfiniteAnimation/> */}
       {/* <InfiniteBounce/> */}
       {/* <ScrollAnimationGesture/> */}
-      <InstagramDoubleTapLike/>
+      {/* <InstagramDoubleTapLike/> */}
+      <AnimatedSearchBar/>
     </View>
   )
 }
